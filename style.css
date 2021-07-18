@@ -4,6 +4,7 @@
 }
 header{
   margin-top: 200px;
+  margin-bottom: 4%;
 }
 header h1{
   text-align: center;
@@ -14,7 +15,6 @@ header h1{
   border-radius: 20px;
   padding: 5%;
   box-shadow: 3px 3px 8px 3px #9B9F9A;
-  margin-top: 2%;
 }
 .main-sec div{
   padding: 2%;
@@ -35,4 +35,51 @@ header h1{
   color: white;
   font-weight: bolder;
   outline: none;
+}
+#transaction-area{
+  display: none;
+}
+.balance-area{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.balance-area div{
+  padding: 2%;
+  border-radius: 13px;
+  width: 20%;
+  color: white;
+  font-weight: bolder;
+  margin-bottom: 4%;
+}
+.balance-area h1{
+  font-size: 34px;
+}
+.deposit{
+  background: #9530F5;
+}
+.withdraw{
+  background: #F56E30;
+}
+.balance{
+  background: #F4B507;
+}
+.deposit-withdraw{
+  width: 90%;
+  margin: auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.depo-area, .with-area{
+  width: 35%;
+  box-shadow: 3px 3px 8px 3px #9B9F9A;
+  padding: 4% 7% 5% 3%;
+}
+.depo-area h2, .with-area h2{
+  margin-bottom: 20px;
+}
+.depo-area div, .with-area div{
+  margin-top: 20px;
 }

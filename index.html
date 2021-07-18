@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Pioneer Login</title>
   
@@ -19,18 +18,50 @@
     <h1>Welcome to Pioneer Bank</h1>
   </header>
   <main>
-    <section class="main-sec">
+    <section class="main-sec" id="login-area">
       <div>
         <h3>Login</h3>
       </div>
       <div>
-        <input class="login email" type="email" id="" placeholder="Email" />
+        <input class="login" type="email" id="" placeholder="Email" />
       </div>
       <div>
-        <input class="login password" type="password" id="" placeholder="password" />
+        <input class="login" type="password" id="" placeholder="password" />
       </div>
       <div>
-        <input class="enter" type="button" id="" value="Enter" />
+        <input class="enter" type="button" id="login-button" value="Enter" />
+      </div>
+    </section>
+    <section id="transaction-area">
+      <div class="balance-area">
+        <div class="deposit">
+          <h3>Deposit</h3>
+          <h1>$ 00</h1>
+        </div>
+        <div class="withdraw">
+          <h3>Withdraw</h3>
+          <h1>$ 00</h1>
+        </div>
+        <div class="balance">
+          <h3>Balance</h3>
+          <h1>$ 1240</h1>
+        </div>
+      </div>
+      <div class="deposit-withdraw">
+        <div class="depo-area">
+          <h2>Diposit</h2>
+          <input class="login" type="text" placeholder="$ amount you want to deposit" />
+          <div>
+            <input class="enter" type="button" value="Deposit" />
+          </div>
+        </div>
+        <div class="with-area">
+          <h2>Withdraw</h2>
+          <input class="login" type="text" placeholder="$ amount you want to withdraw" />
+          <div>
+            <input class="enter" type="button" value="Withdraw" />
+          </div>
+        </div>
       </div>
     </section>
   </main>
