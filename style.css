@@ -31,4 +31,6 @@ header h1{
   padding: 2% 4%;
   border: none;
   border-radius: 3px;
+  color: white;
+  font-weight: bolder;
 }
