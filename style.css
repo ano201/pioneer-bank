@@ -3,6 +3,8 @@
   margin: 0;
 }
 header{
-  text-align: center;
   margin-top: 20%;
+}
+header h1{
+  text-align: center;
 }
