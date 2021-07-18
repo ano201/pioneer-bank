@@ -3,8 +3,34 @@
   margin: 0;
 }
 header{
-  margin-top: 20%;
+  margin-top: 200px;
 }
 header h1{
   text-align: center;
+}
+.main-sec{
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 5%;
+  box-shadow: 3px 3px 8px 3px #9B9F9A;
+  margin-top: 2%;
+}
+.main-sec div{
+  padding: 2%;
+}
+.login{
+  width: 80%;
+}
+.email{
+  
+}
+.password{
+  
+}
+.enter{
+  background: #2FB110;
+  padding: 2% 4%;
+  border: none;
+  border-radius: 3px;
 }
