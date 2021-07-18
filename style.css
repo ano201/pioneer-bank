@@ -11,7 +11,7 @@ header h1{
 .main-sec{
   width: 70%;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 5%;
   box-shadow: 3px 3px 8px 3px #9B9F9A;
   margin-top: 2%;
@@ -21,12 +21,10 @@ header h1{
 }
 .login{
   width: 80%;
-}
-.email{
-  
-}
-.password{
-  
+  height: 40px;
+  border: 1px solid #B2B7B1;
+  padding:0 10px;
+  border-radius: 3px;
 }
 .enter{
   background: #2FB110;
