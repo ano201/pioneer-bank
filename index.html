@@ -36,30 +36,30 @@
       <div class="balance-area">
         <div class="deposit">
           <h3>Deposit</h3>
-          <h1>$ 00</h1>
+          <h1>$ <span id="current-deposit">00</span></h1>
         </div>
         <div class="withdraw">
           <h3>Withdraw</h3>
-          <h1>$ 00</h1>
+          <h1>$ <span id="current-withdraw">00</span></h1>
         </div>
         <div class="balance">
           <h3>Balance</h3>
-          <h1>$ 1240</h1>
+          <h1>$ <span id="current-ballance">1240</span></h1>
         </div>
       </div>
       <div class="deposit-withdraw">
         <div class="depo-area">
           <h2>Diposit</h2>
-          <input class="login" type="text" placeholder="$ amount you want to deposit" />
+          <input class="login" type="text" placeholder="$ amount you want to deposit" id="input-deposit"/>
           <div>
-            <input class="enter" type="button" value="Deposit" />
+            <input class="enter" type="button" value="Deposit" id="deposit-button"/>
           </div>
         </div>
         <div class="with-area">
           <h2>Withdraw</h2>
-          <input class="login" type="text" placeholder="$ amount you want to withdraw" />
+          <input class="login" type="text" placeholder="$ amount you want to withdraw" id="input-withdraw"/>
           <div>
-            <input class="enter" type="button" value="Withdraw" />
+            <input class="enter" type="button" value="Withdraw" id="withdraw-button"/>
           </div>
         </div>
       </div>
