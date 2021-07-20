@@ -37,7 +37,7 @@ header h1{
   outline: none;
 }
 #transaction-area{
-  display: none;
+  display: block;
 }
 .balance-area{
   width: 80%;
